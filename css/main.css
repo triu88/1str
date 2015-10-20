@@ -1,0 +1,104 @@
+html, body, div, ul, ol, li, p, h1, h2, h3, h4, a {
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+body {
+  width: 950px;
+  background-color: #ffffff;
+  margin: auto;
+  font-family: Helvetica, serif;
+}
+.main {
+  background-color: #C6CCCC;
+}
+
+header {
+  background-color: #d2b29b;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 0;
+  width:950px;
+}
+h1 {
+  padding: 10px;
+  font-size: 42px;
+  margin-top: 0px;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-right: 15px;
+  padding: 10px;
+}
+.nav a {
+  text-decoration: none;
+}
+.group img {
+  float:left;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 500px;
+}
+.group:before, .group:after {
+  content: "";
+  display: table;
+}
+.group:after{
+  clear: both;
+}
+.group {
+  zoom: 1;
+  margin: 20px 0 30px 0;
+}
+.group p {
+  font-size: 20px;
+  margin-left: 220px;
+  line-height: 25px;
+  padding-top: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 20px;
+    }
+
+.flex-container li {
+    flex: 0 0 250px;
+    margin: 0 5px 0 5px;
+    }
+.crop {
+  height: 166px;
+  width: 250px;
+  overflow: hidden;
+}
+h2 {
+  width: 200px;
+  border-bottom: 1px solid grey;
+  margin: 0 auto 15px auto;
+  padding: 0;
+}
+.flex-container img {
+  box-shadow: 0 0 1em grey;
+}
+footer {
+  background-color: #C6CCCC;
+}
+footer p {
+  font-size: 12px;
+  text-align: center;
+}
